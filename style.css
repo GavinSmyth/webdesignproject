@@ -1,0 +1,68 @@
+#wrapper{
+	width:60%;
+	height:1000px;
+	background-image:url("alri.jpg");
+	background-image:cover;
+	margin:0 auto;
+}
+#ed
+{
+	width: 90%;
+    height: 150px;
+	background:lightblue;
+	margin:0 auto;
+	border-radius: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+#sam
+{
+	width:20%;
+	height:500px;
+	background:lightblue;
+	border-radius: 30px;
+	margin:5%;
+	float:left;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+#hi{
+	width:60%;
+	height:800px;
+	background:lightblue;
+	border-radius: 30px;
+	margin:5%;
+	float:right;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+body{
+	background-image:tom.png;
+	
+}
+h1{
+	font-family:Corben;
+	color:white;
+	
+}
+.button{
+	background-color:white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+h2{
+	color:white;
+}
+.cye{
+	color:red;
+}
+#demo{
+	color:red;
+}

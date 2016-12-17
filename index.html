@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Paper Airplanes</title>
+	</head>
+	<body background="tom.png">
+		<button onmouseover=popup1();>
+			name
+		</button>
+		<button onmouseover=popup2();>
+			age
+		</button>
+		<p id="demo" style="display:none">Alri Sam</p>
+
+		<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+		
+	<script type="text/javascript">
+		
+	var age=parseInt(prompt("what is your age?"));
+	var name=prompt("what is your name?");
+		alert("welcome "+name);
+		
+	if(age=>18){
+		alert("You can see the paper airplanes there sam");
+	}
+	else{
+		("bye");
+	}
+	
+	function popup1(){
+			alert(name);
+		}
+		function popup2(){
+			alert(age);
+		}
+	</script>
+	<div id="wrapper" >
+	
+		<div id="ed">
+		<h1>Paper Airplanes</h1>
+		<h2>The Rocket</h2>
+		<p>by Gavin Smyth</p>
+		</div>
+		
+		<div id="sam" >
+		<br><br>
+		<button class="button"><a href="TheBuzz.html">The Buzz</a></button>
+		<br><br>
+		<button class="button"><a href="TheSprinter.html">The Sprinter</a></button>
+		<br><br>
+		<button class="button"><a href="TheSpinPlane.html">The Spin Plane</a></button>
+		</div>
+		<div id="hi">
+		<img src="lol.jpg" alt="paper airplane" height="150px" width="150px";>
+		<p>1. Fold a sheet of paper exactly in half long-ways, and re-open it so you have a crease separating the two halves</p>
+		 <br>
+		<p>2. On one end of the paper, fold each corner in towards the center to the point where the inside edges are even with the centerline crease.</p>
+		<br>
+		<p>3.After this step fold the plane in half.</p>
+		<br>
+		<p>4. The forth and finale step is to fold the wings down to meet the bottom edge of the planes body.</p>
+		<p class="cye">Difficulty: easy.</p>
+		</div>
+	
+	</div>
+	
+	
+	
+	</body>
+</html>
